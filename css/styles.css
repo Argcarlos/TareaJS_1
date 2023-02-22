@@ -1,6 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,6 +12,8 @@ body {
   height: 50vh;
   width: 100vw;
 }
+
+
 /*
 header {
   background-color: #6b1f9a;
@@ -69,7 +72,7 @@ h1 {
 
 main{
   width: 100%;
-  height: 120vh;
+  height: 200vh;
   min-height: 100vh;
   padding: 0;  
 }
@@ -139,16 +142,38 @@ section {
   height: 25rem;
 }
 
-  footer{
-    width: 100%;
-    height: 10vh;
-    background-color: #BA94D1;
-    color: #7F669D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
+/*=============== FOOTER ===============*/
+.footer__container {
+  margin: 0;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #5196A6;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+
 }
+
+
+.footer__copy, .footer__powered-link {
+  margin-top: 10px;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #F2F0EB;
+}
+
+.footer__powered-link:hover {
+  color:#F2594B;
+}
+
+
+
+
+
+
+
 
  
 
