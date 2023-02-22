@@ -97,18 +97,19 @@ section {
   margin-top: 25px;
 }
 
-
-/*
   .container-search {
     display: flex;
-    flex-direction: row;
     height: 30vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 100px;
     margin-top: 60px;
-  }*/
+    
+  }
 
+  .container-check {
+    display: flex;
+  }
   /* common card */
 .card{
   width: 18rem;
@@ -143,6 +144,10 @@ section {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  width: 100%;
+  height: 20vh;
+}
 .footer__container {
   margin: 0;
   padding: 1.5rem;
