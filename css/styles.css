@@ -121,7 +121,7 @@ main{
   background-size: 100% 80%;
   background-repeat: no-repeat;
   justify-content: center;
-  background-position: cover;
+
 }
 
 section {
@@ -232,6 +232,77 @@ td {
   color:#F2594B;
 }
 
+@media(max-width: 768px) {
+  header{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.navbar{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-search {
+  flex-wrap: wrap;
+
+}
+
+.footer__container {
+  flex-wrap: wrap;
+
+}
+.collapse {
+  flex-wrap: wrap;
+
+}
+
+
+}
+
+@media(max-width: 500px) {
+  
+}
+
+@media screen and (max-width:625px) {
+  .card{
+      flex-direction: column;
+      height: auto;
+  }
+  .card>img{
+      width: 100%;
+  }
+  .card>div{
+      width: 100%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .title{
+      font-size: 1rem;
+  }
+  header{
+      gap: .5rem;
+  }
+  header>img{
+      height: auto;
+      width: 25%;
+  }
+  .card{
+      height: 25rem;
+      flex-direction: column;
+      justify-content: space-between;
+
+  }
+  .card>img{
+      width: 100%;
+      height: 80%;
+  }
+  .card>div{
+      width: 100%;
+  }
+}
 
 
 
