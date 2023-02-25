@@ -175,10 +175,35 @@ section {
 }
 
 
-/* big card */
-.big{
-  width: 50rem;
-  height: 25rem;
+/* Table */
+
+.table {
+  table-layout:auto;
+  width: 50%;
+  min-height: 30vh;
+  border: 2px  solid #5196A6;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+tr, th {
+  border: 2px solid #5196A6;
+  width: 250px;
+  height: 35px;
+  padding-left: 3px;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+td {
+  border: 2px solid #5196A6;
+  width: 250px;
+  height: 35px;
+  padding-left: 3px;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*=============== FOOTER ===============*/
